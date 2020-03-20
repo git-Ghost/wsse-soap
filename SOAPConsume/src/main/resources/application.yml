@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SOAP
+    
+server:
+    port: 8888  
+    
+SOAPclient:
+  helloContext: com.example.demo.schemas.Hello
+  url: http://localhost:8080/JaxWs/services/hello
+  uid: cxf
+  pwd: cxf
